@@ -133,7 +133,14 @@ config.snowplow =
 
 config.buildInfo = { sha: 'dev' }
 
+config.sunburst =
+  email: process.env.COCO_SUNBURST_EMAIL or ''
+
 if fs.existsSync path.join(__dirname, '.build_info.json')
   config.buildInfo = JSON.parse fs.readFileSync path.join(__dirname, '.build_info.json'), 'utf8'
+
+# This logs a stack trace every time an endpoint sends a response or throws an error.
+# It's great for finding where a mystery endpoint is!
+config.TRACE_ROUTES = process.env.TRACE_ROUTES?
 
 module.exports = config

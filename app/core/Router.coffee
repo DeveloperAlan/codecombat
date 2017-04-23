@@ -29,7 +29,7 @@ module.exports = class CocoRouter extends Backbone.Router
     'account/settings': go('account/AccountSettingsRootView')
     'account/unsubscribe': go('account/UnsubscribeView')
     'account/payments': go('account/PaymentsView')
-    'account/subscription': go('account/SubscriptionView')
+    'account/subscription': go('account/SubscriptionView', { redirectStudents: true, redirectTeachers: true })
     'account/invoices': go('account/InvoicesView')
     'account/prepaid': go('account/PrepaidView')
 
@@ -149,7 +149,7 @@ module.exports = class CocoRouter extends Backbone.Router
     'play/game-dev-level/:levelID/:sessionID': go('play/level/PlayGameDevLevelView')
     'play/web-dev-level/:levelID/:sessionID': go('play/level/PlayWebDevLevelView')
     'play/spectate/:levelID': go('play/SpectateView')
-    'play/:map': go('play/CampaignView', { redirectStudents: true, redirectTeachers: true })
+    'play/:map': go('play/CampaignView', { redirectTeachers: true })
 
     'premium': go('PremiumFeaturesView')
     'Premium': go('PremiumFeaturesView')
@@ -161,6 +161,8 @@ module.exports = class CocoRouter extends Backbone.Router
     'schools': go('HomeView')
     'seen': go('HomeView')
     'SEEN': go('HomeView')
+    
+    'sunburst': go('HomeView')
 
     'students': go('courses/CoursesView', { redirectTeachers: true })
     'students/update-account': go('courses/CoursesUpdateAccountView', { redirectTeachers: true })

@@ -151,6 +151,9 @@
     campaign_multiplayer: "Multiplayer Arenas"
     campaign_multiplayer_description: "... in which you code head-to-head against other players."
     brain_pop_done: "You’ve defeated the Ogres with code! You win!"
+    brain_pop_challenge: "Challenge yourself to play again using a different programming language!"
+    replay: "Replay"
+    back_to_classroom: "Back to Classroom"
 
   code:
     if: "if"  # Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
@@ -299,6 +302,7 @@
     teacher_list_resource_hub_4: "Resource Hub"
     teacher_list_resource_hub_5: "for curriculum guides, activities, and more!"
     teacher_additional_questions: "That’s it! If you need additional help or have questions, reach out to __supportEmail__."
+    dont_use_our_email_silly: "Don't put our email here! Put your parent's email."
 
   recover:
     recover_account_title: "Recover Account"
@@ -675,6 +679,7 @@
     will_be_cancelled: "Will be cancelled on"
     currently_free: "You currently have a free subscription"
     currently_free_until: "You currently have a subscription until"
+    free_subscription: "Free subscription"
     was_free_until: "You had a free subscription until"
     managed_subs: "Managed Subscriptions"
     subscribing: "Subscribing..."
@@ -714,7 +719,7 @@
     fox_name: "Blue Fox"
     fox_description: "Blue foxes are very clever and love digging in the dirt and snow!"
     pugicorn_name: "Pugicorn"
-    pugicorn_description: "Pugicorns are some of the rarest creatures and cast cast spells!"
+    pugicorn_description: "Pugicorns are some of the rarest creatures and can cast spells!"
     wolf_name: "Wolf Pup"
     wolf_description: "Wolf pups excel in hunting, gathering, and playing a mean game of hide-and-seek!"
     ball_name: "Red Squeaky Ball"
@@ -1311,6 +1316,7 @@
     update_account_students_can3: "Compete against classmates in arenas"
     update_account_students_can4: "Access new student-only features as we release them"
     update_account_students_warning: "Warning: You will not be able to manage any classes that you have previously created or create new classes."
+    unsubscribe_warning: "Warning: You will be unsubscribed from your monthly subscription."
     update_account_remain_student: "Remain a Student"
     update_account_update_student: "Update to Student"
     need_a_class_code: "You'll need a Class Code for the class you're joining:"
@@ -1464,6 +1470,7 @@
     cs2: "Computer Science 2"
     cs3: "Computer Science 3"
     cs4: "Computer Science 4"
+    cs5: "Computer Science 5"
     cs1_syntax_python: "Course 1 Python Syntax Guide"
     cs1_syntax_python_desc: "Cheatsheet with references to common Python syntax that students will learn in Introduction to Computer Science."
     cs1_syntax_javascript: "Course 1 JavaScript Syntax Guide"
@@ -1484,6 +1491,10 @@
     cs3_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 3."
     cs4_curriculum: "Computer Science 4 - Curriculum Guide"
     cs4_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 4."
+    cs5_curriculum_js: "Computer Science 5 - Curriculum Guide (JavaScript)"
+    cs5_curriculum_desc_js: "Scope and sequence, lesson plans, activities and more for Course 5 classes using JavaScript."
+    cs5_curriculum_py: "Computer Science 5 - Curriculum Guide (Python)"
+    cs5_curriculum_desc_py: "Scope and sequence, lesson plans, activities and more for Course 5 classes using Python."
     cs1_pairprogramming: "Pair Programming Activity"
     cs1_pairprogramming_desc: "Introduce students to a pair programming exercise that will help them become better listeners and communicators."
     gd1: "Game Development 1"
@@ -2214,7 +2225,7 @@
     sign_up: "Sign up & keep coding ▶"
     victory_sign_up_poke: "Create a free account to save your code & be entered for a chance to win prizes!"
     victory_sign_up: "Sign up & be entered to <strong>win $2,500</strong>"
-    
+
   server_error:
     email_taken: 'Email already taken'
     username_taken: 'Username already taken'
